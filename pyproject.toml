@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "argent-signaling-protocol"
+version = "0.1.0"
+description = "Reference implementation and auditable tooling for the Argent Signaling Protocol for trustworthy multi-agent AI systems."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Anantha Sharma" }
+]
+keywords = [
+  "multi-agent systems",
+  "trustworthy AI",
+  "semantic drift",
+  "agentic AI",
+  "AI governance",
+  "RAG",
+  "grounded generation"
+]
+license = { text = "MIT" }
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.scripts]
+asp = "asp.cli:main"
+
+[project.urls]
+Repository = "https://github.com/ananthasharma/argent-signaling-protocol"
+Documentation = "https://github.com/ananthasharma/argent-signaling-protocol/tree/main/docs"
+Issues = "https://github.com/ananthasharma/argent-signaling-protocol/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

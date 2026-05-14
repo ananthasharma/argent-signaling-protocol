@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Argent Signaling Protocol"
+message: "If you use this repository, please cite the accompanying research work."
+type: software
+authors:
+  - family-names: Sharma
+    given-names: Anantha
+    orcid: "https://orcid.org/0000-0002-9064-3362"
+abstract: "A lightweight signaling protocol for trustworthy multi-agent AI systems, designed to mitigate semantic drift through certainty, grounding, stochasticity, and assumption-index signals."
+keywords:
+  - multi-agent systems
+  - trustworthy AI
+  - explainable AI
+  - semantic drift
+  - agentic AI
+  - grounded generation
+  - RAG
+  - AI governance
+license: MIT
+repository-code: "https://github.com/ananthasharma/argent-signaling-protocol"
+preferred-citation:
+  type: article
+  title: "Trustworthy Multi-Agent Systems: Mitigating Semantic Drift with the Argent Signaling Protocol"
+  authors:
+    - family-names: Sharma
+      given-names: Anantha
+  year: 2026
+  notes: "Accepted for presentation at AISB XTAI 2026"

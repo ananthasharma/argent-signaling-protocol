@@ -1,0 +1,10 @@
+{
+  "flow_id": "flow_123",
+  "agent_id": "retrieval_agent_a",
+  "attempt": 1,
+  "question": "What events qualify as a Change in Control under the agreement?",
+  "context": "Section 1.6 defines Change in Control to include merger, consolidation, sale of substantially all assets, and acquisition of voting control.",
+  "answer": "Change in Control includes merger, consolidation, sale of substantially all assets, and acquisition of voting control. [Section 1.6]",
+  "retrieved_chunks": ["chunk_9", "chunk_10"],
+	"cited_chunks": ["chunk_9"]
+}
