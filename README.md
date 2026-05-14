@@ -118,8 +118,8 @@ In the standalone benchmark, ASP improved aggregate passes from 12/81 to 21/81. 
 
 ## Diagrams
 
-- [diagrams/asp-sidecar-architecture.md](diagrams/asp-sidecar-architecture.md)
-- [diagrams/asp-routing-flow.md](diagrams/asp-routing-flow.md)
+- [diagrams/asp-sidecar-architecture.md](diagrams/asp-sidecar-architecture.png)
+- [diagrams/asp-routing-flow.md](diagrams/asp-routing-flow.png)
 
 ## Repository Contents
 
